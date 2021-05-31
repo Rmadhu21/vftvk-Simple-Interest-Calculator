@@ -5,8 +5,10 @@ h1{color:grey;font-family:verdana}
     color:black;
     width:300px;
     padding:20px;
-    border radius:25px;
-    text-align:center;
-    
+    border-radius:25px;
+}
+.highlight {
+    background-color:yellow;
+
 }
 

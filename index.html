@@ -15,7 +15,8 @@
         Rate <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
         <span id="rate_val">
             
-        </span> <br />
+        
+         </span> <br />
         No. of Years <select id="years">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -29,12 +30,13 @@
             <option value="10">10</option>
 
         </select> <br />
-        Interest : <span id="result"></span><br>
-         Years : <span id="year"></span><br>
+        Interest : <span id="result" class="highlight"></span><br>
+         Years : <span id="year" class="highlight"></span><br>
 
         <button onclick="compute()">Compute Interest</button>
         
         <footer>
+            <br>
 
             &#169; This Calculator belongs to Madhu
 
